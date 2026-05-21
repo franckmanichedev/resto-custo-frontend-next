@@ -1,0 +1,11 @@
+:root {
+  --color-primary: 220 90% 56%;
+  --color-background: #ffffff;
+  --radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0f1724;
+  }
+}

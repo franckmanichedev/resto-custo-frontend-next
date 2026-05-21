@@ -1,0 +1,41 @@
+.glass,
+.glass-card,
+.glass-panel,
+.glass-nav {
+  background: rgba(var(--color-glass), var(--color-glass-alpha));
+  border: 1px solid rgba(var(--color-border), 0.08);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  color: rgb(var(--color-text));
+}
+
+.glass {
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+}
+
+.glass-card {
+  padding: var(--space-6);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-card);
+}
+
+.glass-panel {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+}
+
+.glass-nav {
+  display: block;
+  padding: var(--space-4);
+  border-bottom: 1px solid rgba(var(--color-border), 0.06);
+}
+
+.surface-glass {
+  background: rgba(var(--color-glass), var(--color-glass-alpha));
+  border: 1px solid rgba(var(--color-border), 0.08);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: var(--shadow-soft);
+  color: rgb(var(--color-text));
+}

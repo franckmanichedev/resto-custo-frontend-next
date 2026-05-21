@@ -1,0 +1,28 @@
+:root {
+  /* Core palette as raw RGB components for semantic theming */
+  --palette-deep-cocoa: rgb(30, 21, 18);
+  --palette-deep-cocoa-soft: rgb(58, 48, 40);
+  --palette-burnt-amber: rgb(198, 124, 78);
+  --palette-warm-sand: rgb(216, 195, 165);
+  --palette-soft-cream: rgb(247, 245, 242);
+  --palette-dark-espresso: rgb(18, 14, 12);
+  --palette-dark-elevated: rgb(34, 30, 26);
+  --palette-rich-black: rgb(8, 8, 10);
+  --palette-premium-gold: rgb(214, 171, 113);
+  --palette-white-smoke: rgb(244, 242, 238);
+
+  --palette-success: rgb(60, 122, 87);
+  --palette-warning: rgb(217, 142, 4);
+  --palette-error: rgb(184, 76, 76);
+  --palette-info: rgb(76, 124, 184);
+
+  --neutral-100: rgb(247, 245, 242);
+  --neutral-200: rgb(233, 227, 220);
+  --neutral-300: rgb(207, 196, 183);
+  --neutral-400: rgb(170, 154, 136);
+  --neutral-500: rgb(126, 108, 90);
+  --neutral-600: rgb(92, 77, 63);
+  --neutral-700: rgb(64, 52, 42);
+  --neutral-800: rgb(42, 34, 29);
+  --neutral-900: rgb(20, 18, 16);
+}

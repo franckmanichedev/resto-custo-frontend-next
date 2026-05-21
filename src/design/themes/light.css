@@ -1,0 +1,54 @@
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+
+  /* Surface system */
+  --color-bg: var(--palette-soft-cream);
+  --color-surface: rgb(255, 255, 255);
+  --color-elevated: var(--neutral-100);
+  --color-floating: rgb(255, 255, 255);
+  --color-floating-alpha: 0.92;
+  --color-glass: rgb(255, 255, 255);
+  --color-glass-alpha: 0.72;
+
+  /* Text system */
+  --color-text: var(--palette-deep-cocoa);
+  --color-text-secondary: var(--neutral-500);
+  --color-text-muted: var(--neutral-400);
+  --color-text-inverted: rgb(255, 255, 255);
+
+  /* Brand system */
+  --color-primary: var(--palette-burnt-amber);
+  --color-primary-foreground: rgb(255, 255, 255);
+  --color-brand: var(--palette-burnt-amber);
+  --color-brand-soft: var(--palette-warm-sand);
+  --color-accent: var(--palette-premium-gold);
+  --color-accent-foreground: rgb(255, 255, 255);
+
+  /* Functional tokens */
+  --color-success: var(--palette-success);
+  --color-warning: var(--palette-warning);
+  --color-error: var(--palette-error);
+  --color-info: var(--palette-info);
+
+  /* Border / input */
+  --color-border: var(--palette-deep-cocoa);
+  --color-border-strong: var(--palette-deep-cocoa);
+  --color-divider: var(--palette-deep-cocoa);
+  --color-ring: rgba(var(--palette-deep-cocoa), 0.12);
+  --color-input: rgba(var(--palette-deep-cocoa), 0.05);
+
+  /* Semantic aliases */
+  --color-background: var(--color-bg);
+  --color-bg-app: var(--color-bg);
+  --color-bg-surface: var(--color-surface);
+  --color-bg-elevated: var(--color-elevated);
+  --color-bg-floating: var(--color-floating);
+  --color-bg-glass: var(--color-glass);
+  --color-text-primary: var(--color-text);
+  --color-muted: var(--color-text-muted);
+  --color-muted-foreground: var(--color-text-secondary);
+  --color-foreground: var(--color-text);
+  --color-popover: var(--color-surface);
+  --color-card: var(--color-surface);
+}

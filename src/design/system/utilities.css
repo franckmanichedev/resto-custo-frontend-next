@@ -1,0 +1,49 @@
+:root {
+  --theme-transition: background-color var(--duration-normal) var(--easing-standard),
+    color var(--duration-normal) var(--easing-standard),
+    border-color var(--duration-normal) var(--easing-standard),
+    box-shadow var(--duration-normal) var(--easing-standard);
+}
+
+/* Background utilities */
+.bg-app { background-color: rgb(var(--color-bg)) !important; }
+.bg-surface { background-color: rgb(var(--color-surface)) !important; }
+.bg-elevated { background-color: rgb(var(--color-elevated)) !important; }
+.bg-floating { background-color: rgba(var(--color-floating), var(--color-floating-alpha)) !important; }
+.bg-glass { background-color: rgba(var(--color-glass), var(--color-glass-alpha)) !important; }
+.bg-brand { background-color: rgb(var(--color-brand)) !important; color: rgb(var(--color-brand-foreground)) !important; }
+.bg-muted { background-color: rgb(var(--color-muted)) !important; }
+
+/* Text utilities */
+.text-main { color: rgb(var(--color-text)) !important; }
+.text-sub { color: rgb(var(--color-text-secondary)) !important; }
+.text-muted { color: rgb(var(--color-text-muted)) !important; }
+.text-brand { color: rgb(var(--color-brand)) !important; }
+.text-accent { color: rgb(var(--color-accent)) !important; }
+.text-inverted { color: rgb(var(--color-text-inverted)) !important; }
+
+/* Border utilities */
+.border-base { border-color: rgba(var(--color-border), 0.08) !important; }
+.border-subtle { border-color: rgba(var(--color-border), 0.06) !important; }
+.divider-default { border-color: rgba(var(--color-divider), 0.07) !important; }
+
+/* Shadow utilities */
+.shadow-soft { box-shadow: var(--shadow-soft) !important; }
+.shadow-card { box-shadow: var(--shadow-card) !important; }
+.shadow-floating { box-shadow: var(--shadow-floating) !important; }
+.shadow-glow { box-shadow: var(--shadow-glow) !important; }
+.shadow-brand { box-shadow: var(--shadow-brand) !important; }
+
+/* Radius utilities */
+.rounded-sm { border-radius: var(--radius-sm) !important; }
+.rounded-md { border-radius: var(--radius-md) !important; }
+.rounded-lg { border-radius: var(--radius-lg) !important; }
+.rounded-xl { border-radius: var(--radius-xl) !important; }
+.rounded-2xl { border-radius: var(--radius-2xl) !important; }
+.rounded-full { border-radius: var(--radius-full) !important; }
+
+/* Semantic text states */
+.text-success { color: rgb(var(--color-success)) !important; }
+.text-warning { color: rgb(var(--color-warning)) !important; }
+.text-error { color: rgb(var(--color-error)) !important; }
+.text-info { color: rgb(var(--color-info)) !important; }

@@ -1,0 +1,62 @@
+@import './tokens/colors.css';
+@import './tokens/typography.css';
+@import './tokens/spacing.css';
+@import './tokens/radius.css';
+@import './tokens/shadows.css';
+@import './tokens/motion.css';
+@import './tokens/components.css';
+
+@import './themes/light.css';
+@import './themes/dark.css';
+
+@import './system/surfaces.css';
+@import './system/glass.css';
+@import './system/animations.css';
+@import './system/utilities.css';
+
+:root {
+  color: rgb(var(--color-text));
+  background-color: rgb(var(--color-bg));
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  font-weight: var(--font-weight-regular);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  transition: background-color var(--duration-normal) var(--easing-standard), color var(--duration-normal) var(--easing-standard);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(var(--color-primary), 0.15);
+  color: rgb(var(--color-text));
+}

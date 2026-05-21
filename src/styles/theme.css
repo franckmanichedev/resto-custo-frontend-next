@@ -1,0 +1,64 @@
+
+
+/* =========================================================
+   RESTOQR DESIGN SYSTEM - FULL UTILITIES
+   ========================================================= */
+
+:root {
+    /* --- COULEURS CORE --- */
+    --brand: #6d28d9;
+    --brand-soft: #8b5cf6;
+    --brand-deep: #4c1d95;
+    --brand-alpha: rgba(109, 40, 217, 0.12);
+    --brand-glow: rgba(109, 40, 217, 0.3);
+
+    /* --- LIGHT MODE --- */
+    --bg-app: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-muted: #f1f5f9;
+    
+    --text-primary: #6d28d9;
+    --text-main: #0f172a;
+    --text-sub: #475569;
+    --text-muted: #94a3b8;
+    --text-on-brand: #ffffff;
+
+    --glass-bg: rgba(255, 255, 255, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.5);
+    --glass-blur: blur(14px);
+    --glass-shadow: 0 12px 40px rgba(15, 23, 42, 0.06);
+
+    --border-base: #e2e8f0;
+    
+    /* --- STATUS --- */
+    --success: #10b981;
+    --error: #ef4444;
+    --warning: #f59e0b;
+    --info: #3b82f6;
+
+    /* --- SHAPES --- */
+    --radius-sm: 0.5rem;
+    --radius-md: 1rem;
+    --radius-lg: 1.75rem;
+    --radius-full: 9999px;
+}
+
+/* =========================================================
+   DARK MODE OVERRIDE
+   ========================================================= */
+[data-theme='dark'] {
+    --bg-app: #020617;
+    --bg-surface: #0f172a;
+    --bg-muted: #1e293b;
+
+    --text-primary: #6d28d9;
+    --text-main: #f8fafc;
+    --text-sub: #cbd5e1;
+    --text-muted: #64748b;
+
+    --glass-bg: rgba(15, 23, 42, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+
+    --border-base: #1e293b;
+}

@@ -1,0 +1,35 @@
+.surface-app {
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+}
+
+.surface-card {
+  background: rgb(var(--color-surface));
+  border: 1px solid rgba(var(--color-border), 0.08);
+  box-shadow: var(--shadow-card);
+  border-radius: var(--radius-xl);
+  color: rgb(var(--color-text));
+}
+
+.surface-panel {
+  background: rgb(var(--color-surface));
+  border: 1px solid rgba(var(--color-border), 0.07);
+  box-shadow: var(--shadow-soft);
+  border-radius: var(--radius-lg);
+  color: rgb(var(--color-text));
+}
+
+.surface-floating {
+  background: rgba(var(--color-floating), var(--color-floating-alpha));
+  border: 1px solid rgba(var(--color-border), 0.06);
+  box-shadow: var(--shadow-floating);
+  border-radius: var(--radius-2xl);
+  color: rgb(var(--color-text));
+}
+
+.surface-brand {
+  background: rgb(var(--color-brand));
+  color: rgb(var(--color-brand-foreground));
+  box-shadow: var(--shadow-brand);
+  border-radius: var(--radius-xl);
+}

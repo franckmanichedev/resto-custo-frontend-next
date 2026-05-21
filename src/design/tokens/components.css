@@ -1,0 +1,99 @@
+:root {
+  /* =====================================================
+  BUTTON TOKENS
+  ===================================================== */
+  --button-height-xs: 2rem;
+  --button-height-sm: 2.25rem;
+  --button-height-md: 2.75rem;
+  --button-height-lg: 3.25rem;
+  --button-padding-x: 1rem;
+  --button-padding-y: 0.75rem;
+  --button-radius: var(--radius-md);
+  --button-font-size: var(--font-size-body);
+  --button-font-weight: var(--font-weight-medium);
+
+  /* =====================================================
+  INPUT TOKENS
+  ===================================================== */
+  --input-height: 2.75rem;
+  --input-padding-x: 1rem;
+  --input-padding-y: 0.75rem;
+  --input-radius: var(--radius-lg);
+  --input-font-size: var(--font-size-body);
+  --input-border-width: 0.0625rem;
+
+  /* =====================================================
+  CARD TOKENS
+  ===================================================== */
+  --card-padding-sm: 1rem;
+  --card-padding-md: 1.5rem;
+  --card-padding-lg: 2rem;
+  --card-radius: var(--radius-xl);
+  --card-gap: 1rem;
+  --card-border-width: 0.0625rem;
+
+  /* =====================================================
+  MODAL TOKENS
+  ===================================================== */
+  --modal-width-sm: 22rem;
+  --modal-width-md: 32rem;
+  --modal-width-lg: 48rem;
+  --modal-padding: 1.5rem;
+  --modal-radius: var(--radius-2xl);
+  --modal-header-height: 3.5rem;
+
+  /* =====================================================
+  NAVBAR TOKENS
+  ===================================================== */
+  --navbar-height: 4rem;
+  --navbar-padding-x: 1.5rem;
+  --navbar-padding-y: 0.75rem;
+
+  /* =====================================================
+  SIDEBAR TOKENS
+  ===================================================== */
+  --sidebar-width: 20rem;
+  --sidebar-width-collapsed: 5.5rem;
+  --sidebar-item-height: 3rem;
+  --sidebar-padding: 1rem;
+
+  /* =====================================================
+  TABLE TOKENS
+  ===================================================== */
+  --table-row-height: 3rem;
+  --table-cell-padding: 1rem;
+  --table-radius: var(--radius-lg);
+
+  /* =====================================================
+  BADGE TOKENS
+  ===================================================== */
+  --badge-height: 1.5rem;
+  --badge-padding-x: 0.75rem;
+  --badge-radius: var(--radius-full);
+  --badge-font-size: var(--font-size-caption);
+
+  /* =====================================================
+  AVATAR TOKENS
+  ===================================================== */
+  --avatar-size-xs: 1.75rem;
+  --avatar-size-sm: 2.25rem;
+  --avatar-size-md: 3rem;
+  --avatar-size-lg: 3.75rem;
+  --avatar-radius: var(--radius-full);
+
+  /* =====================================================
+  DROPDOWN TOKENS
+  ===================================================== */
+  --dropdown-width: 16rem;
+  --dropdown-padding: 0.75rem;
+  --dropdown-radius: var(--radius-lg);
+  --dropdown-item-height: 2.75rem;
+
+  /* =====================================================
+  TOAST TOKENS
+  ===================================================== */
+  --toast-width: min(32rem, 100%);
+  --toast-padding: 1rem;
+  --toast-radius: var(--radius-xl);
+  --toast-gap: 0.75rem;
+}
